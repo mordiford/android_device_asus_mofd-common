@@ -269,7 +269,12 @@ on post-fs
     setprop persist.asus.dclick 0
 
 # Permissions for Touch Gesture Mode
-    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesturemode
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_c
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_e
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_s
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_v
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_w
+    chown system system /sys/bus/i2c/devices/i2c-7/7-0038/ftsgesture_z
 
     setprop persist.asus.gesture.type 0
 
