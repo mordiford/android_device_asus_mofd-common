@@ -284,6 +284,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
+    device/asus/mofd-common/configs/hostapd.conf:system/etc/wifi/hostapd.conf \
+    device/asus/mofd-common/configs/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     device/asus/mofd-common/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
 $(call inherit-product-if-exists, vendor/asus/mofd-common/mofd-common-vendor.mk)
