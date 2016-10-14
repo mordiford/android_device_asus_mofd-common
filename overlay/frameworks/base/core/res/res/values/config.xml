@@ -405,4 +405,6 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">10</integer>
 
+    <!-- Enable RR hardware key pref -->
+    <bool name="config_hwKeysPref">true</bool>
 </resources>
